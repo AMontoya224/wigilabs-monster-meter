@@ -1,0 +1,172 @@
+.odometer{
+    margin: 80px 20px;
+    padding: 20px 0;
+    width: 420px;
+    height: 300px;
+    border-radius: 20px;
+    background: var(--color-background);
+    box-shadow: inset -2px -2px 5px var(--color-table-variant);
+    transition: all 500ms ease;
+}
+.odometer:hover{
+    box-shadow: inset -2px -2px 4px var(--color-table);
+}
+
+.odometer-base{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.odometer-aguja{
+    width: 90px;
+    position: relative;
+    top: -22px;
+    left: 135px;
+    transform-origin: 84% 21%;
+}
+
+h4{
+    color: var(--color-warning);
+    position: relative;
+    top: -50px;
+    left: 183px;
+    font-weight: 600;
+}
+.h4-green{
+    color: var(--color-sucess);
+}
+.h4-red{
+    color: var(--color-danger);
+}
+
+.odometer-sub{
+    width: 300px;
+    height: 150px;
+    background: var(--color-primary);
+    border-radius: 150px 150px 0 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 30px;
+    transition: all 500ms ease;
+}
+.odometer-sub::before{
+    content: '';
+    position: absolute;
+    top: 400px;
+    left: 130px;
+    width: 15px;
+    height: 40px;
+    background: var(--color-background);
+    transition: all 500ms ease;
+    transform: rotate(135deg);
+}
+.odometer-sub::after{
+    content: '';
+    position: absolute;
+    top: 400px;
+    left: 325px;
+    width: 15px;
+    height: 40px;
+    background: var(--color-background);
+    transition: all 500ms ease;
+    transform: rotate(45deg);
+}
+
+.odometer-inf{
+    width: 260px;
+    height: 130px;
+    border-radius: 130px 130px 0 0;
+    background: var(--color-background);
+    transition: all 500ms ease;
+}
+
+.odometer-inf > p{
+    color: var(--color-letter);
+    font-size: 12px;
+}
+
+.p1{
+    position: relative;
+    top: 70px;
+    left: -70px;
+}
+
+.p2{
+    position: relative;
+    top: -70px;
+    left: 108px;
+}
+
+.p3{
+    position: relative;
+    top: 33px;
+    left: 300px;
+}
+
+.p0{
+    position: relative;
+    top: 61px;
+    left: 10px;
+}
+
+.p10{
+    position: relative;
+    top: 8px;
+    left: 17px;
+}
+
+.p20{
+    position: relative;
+    top: -40px;
+    left: 35px;
+}
+
+.p30{
+    position: relative;
+    top: -80px;
+    left: 58px;
+}
+
+.p40{
+    position: relative;
+    top: -113px;
+    left: 87px;
+}
+
+.p50{
+    position: relative;
+    top: -138px;
+    left: 124px;
+}
+
+.p60{
+    position: relative;
+    top: -152px;
+    left: 160px;
+}
+
+.p70{
+    position: relative;
+    top: -153px;
+    left: 192px;
+}
+
+.p80{
+    position: relative;
+    top: -145px;
+    left: 217px;
+}
+
+.p90{
+    position: relative;
+    top: -135px;
+    left: 230px;
+}
+
+.p100{
+    position: relative;
+    top: -119px;
+    left: 235px;
+}
